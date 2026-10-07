@@ -6,7 +6,7 @@ st.set_page_config(page_title="Text To Image", page_icon="🎨", layout="centere
 st.title("🎨 AeonRush Text To Image")
 st.write("Powered by LangChain & Groq (GPT OSS 120B)")
 
-groq_api_key = st.secrets.get("GROQ_API_KEY")
+groq_api_key = st.secrets.get("Prompt")
 
 def load_llm(api_key):
     return ChatGroq(
