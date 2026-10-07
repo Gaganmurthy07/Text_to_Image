@@ -46,6 +46,8 @@ Answer:
 """
 )
 
+llm = load_llm(groq_api_key)
+
 few_shot_prompt = FewShotPromptTemplate(
     examples=examples,
     example_prompt=example_prompt,
