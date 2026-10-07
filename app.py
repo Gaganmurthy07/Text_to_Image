@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate, FewShotPromptTemplate
 from langchain_groq import ChatGroq
 
 st.set_page_config(page_title="Text To Image", page_icon="🎨", layout="centered")
-st.title("🎨 AeonRush Text To Image")
+st.title("🎨 AveonRush Text To Image")
 st.write("Powered by LangChain & Groq (GPT OSS 120B)")
 
 groq_api_key = st.secrets.get("GROQ_API_KEY")
